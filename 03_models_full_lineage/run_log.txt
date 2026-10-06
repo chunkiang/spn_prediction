@@ -1,0 +1,35 @@
+[14:56:57] 参数：{"matrix_dir": "/Users/chunjiang/Documents/20260930_SPN_ML/01_matrix", "lineage": "/Users/chunjiang/Documents/20260930_SPN_ML/02_lineage/lineage_groups.csv", "group_col": "lin_0.2363", "outdir": "/Users/chunjiang/Documents/20260930_SPN_ML/03_models_full_lineage", "drugs": ["PEN", "AMC", "CRO", "ERY", "CLI", "LVX", "MFX", "SXT"], "featsets": ["kmer", "typing", "combined"], "n_outer": 5, "n_inner": 3, "n_iter": 8, "top_k": 20000, "n_boot": 1000, "quick": false, "no_threshold_tuning": false, "k": 10, "seed": 2026, "n_jobs": -1}
+[14:56:57] 927 株；分组列 lin_0.2363：123 组
+[14:56:57] 外层各折测试集株数：[314, 149, 150, 160, 154]
+[14:57:00] 折 0：训练集非恒定 k-mer 501,529，保留方差前 20,000（3s）
+[14:57:02] 折 1：训练集非恒定 k-mer 502,453，保留方差前 20,000（2s）
+[14:57:04] 折 2：训练集非恒定 k-mer 499,479，保留方差前 20,000（2s）
+[14:57:06] 折 3：训练集非恒定 k-mer 501,808，保留方差前 20,000（2s）
+[14:57:08] 折 4：训练集非恒定 k-mer 501,879，保留方差前 20,000（2s）
+[15:18:58] PEN / kmer：完成（1310s）
+[15:19:27] PEN / typing：完成（25s）
+[15:41:39] PEN / combined：完成（1329s）
+[16:06:09] AMC / kmer：完成（1467s）
+[16:06:44] AMC / typing：完成（31s）
+[16:32:06] AMC / combined：完成（1518s）
+[16:56:37] CRO / kmer：完成（1467s）
+[16:57:13] CRO / typing：完成（32s）
+[17:22:33] CRO / combined：完成（1516s）
+[17:44:25] ERY / kmer：完成（1309s）
+[17:44:56] ERY / typing：完成（27s）
+[18:07:49] ERY / combined：完成（1370s）
+[18:32:00] CLI / kmer：完成（1446s）
+[18:32:32] CLI / typing：完成（29s）
+[18:56:42] CLI / combined：完成（1446s）
+[18:56:46] LVX：NS 仅 5 株，跳过分类模型，只做 MIC 回归
+[19:06:41] LVX / kmer：完成（596s）
+[19:06:57] LVX / typing：完成（16s）
+[19:17:04] LVX / combined：完成（607s）
+[19:17:04] MFX：NS 仅 2 株，跳过分类模型，只做 MIC 回归
+[19:28:04] MFX / kmer：完成（659s）
+[19:28:19] MFX / typing：完成（15s）
+[19:39:40] MFX / combined：完成（680s）
+[20:05:10] SXT / kmer：完成（1530s）
+[20:05:44] SXT / typing：完成（30s）
+[20:31:39] SXT / combined：完成（1551s）
+[20:31:43] 全部完成。结果在 /Users/chunjiang/Documents/20260930_SPN_ML/03_models_full_lineage

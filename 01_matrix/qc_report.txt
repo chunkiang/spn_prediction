@@ -1,0 +1,46 @@
+表型表：927 株；来源 {'Domestic': 607, 'GPS': 320}
+ID 匹配：两者共有 927；仅 k-mer 有 0；仅表型有 0
+读取 607_long-merge-kmer-file.tsv：257,348,768 行，11s
+读取 320_long-merge-kmer-file.tsv：135,139,269 行，10s
+k-mer 计数范围：1 – 189
+canonical 检查：k-mer 与其反向互补同时出现的对数 = 0（0 表示为 canonical 计数；回文 k-mer 共 1024）
+非零 k-mer（特征）数：503,875 / 理论 1,048,576
+矩阵稀疏度（0 的比例）：0.1597
+所有菌株都存在的 k-mer：325,876（64.7%）；存在率 1%–99% 的 k-mer：114,093；≤1% 菌株存在：21,949
+total_count 约等于组装长度（canonical 计数下每个位置计一次）
+Origin                  Domestic        GPS
+n_distinct_kmer count      607.0      320.0
+                mean    423968.0   422310.0
+                std       2008.0     2509.0
+                min     419306.0   418477.0
+                25%     422626.0   420474.0
+                50%     423355.0   422414.0
+                75%     425100.0   424117.0
+                max     430850.0   429083.0
+total_count     count      607.0      320.0
+                mean   2071368.0  2041771.0
+                std      47348.0    53526.0
+                min    1967461.0  1949028.0
+                25%    2032420.0  1995030.0
+                50%    2065665.0  2043748.0
+                75%    2099878.0  2079584.0
+                max    2270900.0  2191561.0
+离群株（|robust z|>3.5）：2；其中标注 contamination 的：1 / 33
+  ID   Origin       COMMENT  n_distinct_kmer  total_count
+ 193 Domestic           NaN           430604      2244832
+X265 Domestic contamination           430850      2270900
+
+S/I/R 分布（按来源）：
+  PEN: {'Domestic': {'I': 236, 'R': 371, 'S': 0}, 'GPS': {'I': 39, 'R': 8, 'S': 273}}
+  AMC: {'Domestic': {'I': 60, 'R': 152, 'S': 395}, 'GPS': {'I': 2, 'R': 1, 'S': 317}}
+  CRO: {'Domestic': {'I': 51, 'R': 128, 'S': 428}, 'GPS': {'I': 2, 'R': 0, 'S': 318}}
+  ERY: {'Domestic': {'I': 5, 'R': 592, 'S': 10}, 'GPS': {'I': 0, 'R': 37, 'S': 283}}
+  CLI: {'Domestic': {'I': 5, 'R': 563, 'S': 39}, 'GPS': {'I': 0, 'R': 16, 'S': 304}}
+  LVX: {'Domestic': {'I': 0, 'R': 1, 'S': 606}, 'GPS': {'I': 3, 'R': 1, 'S': 316}}
+  MFX: {'Domestic': {'I': 1, 'S': 606}, 'GPS': {'I': 1, 'S': 319}}
+  SXT: {'Domestic': {'I': 47, 'R': 418, 'S': 142}, 'GPS': {'I': 5, 'R': 47, 'S': 268}}
+ST 数：239；单株 ST：131；非标准 ST：['320*', '-', '-', '-', '-']
+
+PCA（top 20000 方差 k-mer，log1p）解释方差 PC1–5：[0.268, 0.088, 0.051, 0.041, 0.029]
+
+完成。输出目录：/Users/chunjiang/Documents/20260930_SPN_ML/01_matrix

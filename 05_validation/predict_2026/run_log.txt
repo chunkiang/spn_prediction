@@ -1,0 +1,23 @@
+[21:08:57] 参数：{"matrix_dir": "/Users/chunjiang/Documents/20260930_SPN_ML/01_matrix", "val_dir": "/Users/chunjiang/Documents/20260930_SPN_ML/05_validation/kmers_2026", "lineage": "/Users/chunjiang/Documents/20260930_SPN_ML/02_lineage/lineage_groups.csv", "group_col": "lin_0.2363", "cv_script": "/Users/chunjiang/Documents/20260930_633菌株/03_grouped_cv_models.py", "outdir": "/Users/chunjiang/Documents/20260930_SPN_ML/05_validation/predict_2026", "drugs": ["PEN", "CRO", "ERY", "CLI", "LVX", "SXT"], "top_k": 20000, "n_folds": 5, "n_iter": 8, "n_bags": 20, "quick": false, "seed": 2026, "n_jobs": -1}
+[21:08:57] 搜索空间来源：03 脚本；分类所需少数类最少 10 株
+[21:08:57] 训练 927 株，验证 50 株；分组列 lin_0.2363（123 组）
+[21:08:58] 非恒定 k-mer 503,875，按方差保留 20,000
+[21:08:58] PEN：训练 927 株（NS 650）
+[21:22:15]   PEN 完成（796s）；训练集分组 CV 自检：EA 85.4%，CA 80.6%，AUROC 0.993，阈值 0.187
+[21:22:15]   验证株预测：S 0 / I 29 / R 21；分类与回归判读不一致 0 株
+[21:22:15] CRO：训练 927 株（NS 181）
+[21:37:48]   CRO 完成（934s）；训练集分组 CV 自检：EA 82.7%，CA 80.2%，AUROC 0.880，阈值 0.049
+[21:37:48]   验证株预测：S 32 / I 7 / R 11；分类与回归判读不一致 5 株
+[21:37:48] ERY：训练 927 株（NS 634）
+[21:53:17]   ERY 完成（929s）；训练集分组 CV 自检：EA 80.5%，CA 95.6%，AUROC 0.973，阈值 0.171
+[21:53:17]   验证株预测：S 2 / I 0 / R 48；分类与回归判读不一致 2 株
+[21:53:17] CLI：训练 927 株（NS 584）
+[22:11:26]   CLI 完成（1089s）；训练集分组 CV 自检：EA 69.4%，CA 94.6%，AUROC 0.947，阈值 0.532
+[22:11:26]   验证株预测：S 2 / I 2 / R 46；分类与回归判读不一致 3 株
+[22:11:27] LVX：训练 927 株（NS 5）；NS 过少，只做 MIC 回归
+[22:17:51]   LVX 完成（385s）；训练集分组 CV 自检：EA 99.5%，CA 99.5%
+[22:17:51]   验证株预测：S 50 / I 0 / R 0；分类与回归判读不一致 0 株
+[22:17:51] SXT：训练 927 株（NS 517）
+[22:36:21]   SXT 完成（1110s）；训练集分组 CV 自检：EA 73.9%，CA 74.3%，AUROC 0.939，阈值 0.569
+[22:36:21]   验证株预测：S 5 / I 6 / R 39；分类与回归判读不一致 5 株
+[22:36:21] 完成。输出：/Users/chunjiang/Documents/20260930_SPN_ML/05_validation/predict_2026

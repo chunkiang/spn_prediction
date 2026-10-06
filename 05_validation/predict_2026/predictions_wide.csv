@@ -1,0 +1,51 @@
+ID,PEN_predMIC,PEN_predSIR,CRO_predMIC,CRO_predSIR,ERY_predMIC,ERY_predSIR,CLI_predMIC,CLI_predSIR,LVX_predMIC,LVX_predSIR,SXT_predMIC,SXT_predSIR,flag,nn_train_ID,nn_dist,nn_ST,nn_lineage,outside_train_lineages
+V-01,2,R,2,I,16,R,8,R,1,S,4,R,distinct k-mer 偏离训练集 >3SD;,127,0.084,902,112,False
+V-02,1,I,0.25,S,2,R,4,R,1,S,0.25,S,distinct k-mer 偏离训练集 >3SD;,GPS_NO_NIPH_804,0.138,63,4,False
+V-03,0.12,I,0.5,S,4,R,2,R,1,S,0.25,S,contig 过多;distinct k-mer 偏离训练集 >3SD;,70,0.0913,695,85,False
+V-04,1,I,0.25,S,16,R,16,R,1,S,4,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,280,0.1733,9114,21,False
+V-05,2,R,0.5,S,16,R,16,R,1,S,4,R,,280,0.0915,9114,21,False
+V-06,0.12,I,0.25,S,16,R,8,R,1,S,8,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,325,0.1049,13646,107,False
+V-07,0.12,I,0.25,S,16,R,4,R,1,S,4,R,distinct k-mer 偏离训练集 >3SD;,325,0.0702,13646,107,False
+V-08,0.25,I,0.25,S,16,R,16,R,1,S,8,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,132,0.1343,8589,59,False
+V-09,2,R,0.5,S,8,R,8,R,1,S,16,R,distinct k-mer 偏离训练集 >3SD;,247,0.0962,230,77,False
+V-10,2,R,0.5,S,8,R,16,R,0.5,S,4,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,65,0.1142,90,115,False
+V-11,0.12,I,0.25,S,2,R,0.5,I,1,S,1,I,,X44,0.0907,15069,14,False
+V-12,2,R,4,R,4,R,4,R,1,S,8,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,X222,0.1265,271,103,False
+V-13,0.12,I,0.5,S,8,R,16,R,1,S,0.12,S,distinct k-mer 偏离训练集 >3SD;,299,0.1088,6011,34,False
+V-14,2,R,2,I,16,R,2,R,1,S,8,R,,195,0.0326,271,103,False
+V-15,1,I,1,S,16,R,1,R,1,S,8,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,195,0.1078,271,103,False
+V-16,4,R,2,I,4,R,8,R,1,S,8,R,distinct k-mer 偏离训练集 >3SD;,X240,0.0543,3173,109,False
+V-17,2,R,1,S,16,R,0.5,I,1,S,8,R,,X24,0.0637,320,103,False
+V-18,2,R,4,R,16,R,4,R,1,S,2,I,,195,0.0413,271,103,False
+V-19,2,R,2,I,16,R,2,R,1,S,2,I,,X24,0.0448,320,103,False
+V-20,1,I,0.25,S,16,R,2,R,1,S,1,I,contig 过多;distinct k-mer 偏离训练集 >3SD;,281,0.0912,236,103,False
+V-21,2,R,4,R,8,R,2,R,1,S,8,R,,SH-18-62,0.0368,271,103,False
+V-22,1,I,0.5,S,2,R,4,R,1,S,4,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,X238,0.096,9792,79,False
+V-23,2,R,4,R,8,R,2,R,1,S,8,R,,SH-18-62,0.0471,271,103,False
+V-24,2,R,4,R,8,R,2,R,1,S,16,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,195,0.0771,271,103,False
+V-25,2,R,4,R,16,R,2,R,1,S,8,R,,SH-18-62,0.0436,271,103,False
+V-26,1,I,0.5,S,16,R,8,R,1,S,4,R,,197,0.0549,9789,122,False
+V-27,1,I,2,I,8,R,1,R,1,S,4,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,X27,0.1101,271,103,False
+V-28,1,I,2,I,16,R,4,R,1,S,8,R,,SH-18-62,0.0464,271,103,False
+V-29,0.5,I,1,S,4,R,8,R,1,S,0.25,S,contig 过多;distinct k-mer 偏离训练集 >3SD;,GPS_TW_NHRI_SPN136,0.1714,9395,38,False
+V-30,2,R,1,S,4,R,2,R,0.5,S,4,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,SD-18-12,0.0761,3173,109,False
+V-31,0.12,I,0.25,S,8,R,4,R,1,S,8,R,,132,0.072,8589,59,False
+V-32,0.12,I,0.25,S,16,R,4,R,1,S,4,R,,325,0.0435,13646,107,False
+V-33,0.12,I,0.25,S,16,R,8,R,0.5,S,4,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,X413,0.1093,13646,107,False
+V-34,0.5,I,0.25,S,4,R,4,R,1,S,1,I,contig 过多;distinct k-mer 偏离训练集 >3SD;,X397,0.0828,855,119,False
+V-35,0.25,I,0.25,S,16,R,8,R,1,S,8,R,distinct k-mer 偏离训练集 >3SD;,X413,0.0627,13646,107,False
+V-36,1,I,0.5,S,0.25,S,0.03,S,1,S,4,R,基因组长度异常;contig 过多;distinct k-mer 偏离训练集 >3SD;,X145,0.3784,7753,35,True
+V-37,1,I,4,R,8,R,2,R,1,S,8,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,174,0.0858,271,103,False
+V-38,2,R,4,R,8,R,2,R,1,S,16,R,,195,0.0407,271,103,False
+V-39,2,R,0.5,S,8,R,8,R,1,S,8,R,,247,0.0433,230,77,False
+V-40,2,R,4,R,4,R,2,R,1,S,16,R,,195,0.0414,271,103,False
+V-41,1,I,4,R,16,R,1,R,1,S,8,R,,195,0.0592,271,103,False
+V-42,1,I,0.5,S,8,R,8,R,1,S,4,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,210,0.1044,13025,3,False
+V-43,2,R,4,R,8,R,1,R,1,S,8,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,174,0.082,271,103,False
+V-44,1,I,0.5,S,4,R,4,R,0.5,S,0.25,S,contig 过多;distinct k-mer 偏离训练集 >3SD;,GPS_NO_NIPH_804,0.1374,63,4,False
+V-45,1,I,0.5,S,8,R,8,R,1,S,16,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,247,0.1177,230,77,False
+V-46,1,I,2,I,8,R,2,R,1,S,8,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,195,0.1485,271,103,False
+V-47,2,R,1,S,8,R,8,R,1,S,1,I,contig 过多;distinct k-mer 偏离训练集 >3SD;,186,0.153,90,115,False
+V-48,0.5,I,0.12,S,0.12,S,0.03,S,1,S,4,R,基因组长度异常;contig 过多;distinct k-mer 偏离训练集 >3SD;GC 异常;,X265,0.4427,81,79,True
+V-49,2,R,1,S,16,R,1,R,1,S,8,R,contig 过多;distinct k-mer 偏离训练集 >3SD;,X346,0.1148,320,103,False
+V-50,0.12,I,0.5,S,8,R,2,R,1,S,4,R,distinct k-mer 偏离训练集 >3SD;,97,0.2691,8227,103,True
